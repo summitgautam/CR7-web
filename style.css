@@ -75,3 +75,62 @@ div.left{
     color: #d4af37;
     margin-bottom: 20px;
 }
+#journey{
+    padding: 60px 10%;
+}
+#journey h2{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.journey{
+    list-style: none;
+}
+.journey li{
+    background: #1a1a1a;
+    margin-bottom: 15px;
+    border-radius: 0 8px 8px 0;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+.journey li:hover{
+    background: #222;
+}
+.journey b{
+    color: #d4af37;
+    font-size: 1.1rem;
+}
+#trophies {
+    padding: 60px 10%;
+    background-color: #0a0a0a;
+}
+#trophies h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.trophies, .awards{
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    list-style: none;
+    vertical-align: top;
+}
+#trophies h3{
+    color: #d4af37;
+    margin-bottom: 15px;
+    border-bottom: 1px soliid #333;
+    padding-bottom: 5px;
+}
+#trophies li{
+    border-bottom: 1px solid #222;
+    padding: 8px 0;
+}
+.footer{
+    background: #000;
+    color: #666;
+    font-size: 0.9rem;
+    text-align: center;
+    font-size: 15px;
+    padding: 40px;
+}
